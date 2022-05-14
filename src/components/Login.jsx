@@ -1,6 +1,7 @@
 import React from "react";
 import '../App.css';
 import lg from '../vector/default-monochrome-white.svg';
+
 const Login = () => {
   return (
     <div>
@@ -47,6 +48,7 @@ const Login = () => {
 
     </div>
   );
+  
 };
   
 export default Login;

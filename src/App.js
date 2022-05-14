@@ -11,6 +11,7 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Signup from './components/SignUp';
 
+
 export default function App() {
   return (
     <Router>
