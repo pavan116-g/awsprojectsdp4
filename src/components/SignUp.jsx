@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import UserPool from "../UserPool";
-import '../style.css';
+import '../App.css';
 
 const Signup = () =>{
     const [email,setEmail] =useState("");
@@ -19,7 +19,9 @@ const Signup = () =>{
     };
 
     return(
+
         <div className="form">
+            <h1>Registration Page</h1>
         <div className="form-body">
             <div className="username">
                 <label className="form__label" for="firstName">First Name </label>
