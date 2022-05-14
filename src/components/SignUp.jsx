@@ -19,25 +19,33 @@ const Signup = () =>{
     };
 
     return(
-            <div>
-                <center>
-                <h1 style="color: white;">Registration</h1>
-                    <br></br><br></br><br></br>
-                <form onSubmit={onSubmit}>
-                    <label htmlFor="email">Email</label>
-                    <input
-                        value={email}
-                        onChange={(event) => setEmail(event.target.value)}></input>
-<br></br><br></br><br></br>
-                    <label htmlFor="password">Password</label>
-                    <input
-                        value={password}
-                        onChange={(event) => setpassword(event.target.value)}></input>
-<br></br><br></br><br></br>
-                    <button type="submit">Submit</button> 
-                </form>
-                </center>
+        <div className="form">
+        <div className="form-body">
+            <div className="username">
+                <label className="form__label" for="firstName">First Name </label>
+                <input className="form__input" type="text" id="firstName" placeholder="First Name"/>
             </div>
+            <div className="lastname">
+                <label className="form__label" for="lastName">Last Name </label>
+                <input  type="text" name="" id="lastName"  className="form__input"placeholder="LastName"/>
+            </div>
+            <div className="email">
+                <label className="form__label" for="email">Email </label>
+                <input  type="email" id="email" className="form__input" placeholder="Email"/>
+            </div>
+            <div className="password">
+                <label className="form__label" for="password">Password </label>
+                <input className="form__input" type="password"  id="password" placeholder="Password"/>
+            </div>
+            <div className="confirm-password">
+                <label className="form__label" for="confirmPassword">Confirm Password </label>
+                <input className="form__input" type="password" id="confirmPassword" placeholder="Confirm Password"/>
+            </div>
+        </div>
+        <div class="footer">
+            <button type="submit" class="btn">Register</button>
+        </div>
+    </div>      
     );
 };
 
