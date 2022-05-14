@@ -27,7 +27,7 @@ const Login = () => {
             <h2>Sign In</h2>
             <form method="post" >
             <label>
-              <span>User Id</span>
+              <span>Username</span>
               <input type="text" name="orphanageid"/>
             </label>
             <label>
