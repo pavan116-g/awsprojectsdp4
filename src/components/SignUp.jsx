@@ -21,7 +21,7 @@ const Signup = () =>{
     return(
             <div>
                 <center>
-                    <h1>Registration</h1>
+                <h1 style="color: red;">Registration</h1>
                     <br></br><br></br><br></br>
                 <form onSubmit={onSubmit}>
                     <label htmlFor="email">Email</label>
