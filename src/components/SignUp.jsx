@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import UserPool from "../UserPool";
+import '../App.css';
 
 const Signup = () =>{
     const [email,setEmail] =useState("");
