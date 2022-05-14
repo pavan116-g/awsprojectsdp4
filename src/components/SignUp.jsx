@@ -21,7 +21,7 @@ const Signup = () =>{
     return(
 
         <div className="form">
-            <h1>Registration Page</h1>
+           <center> <h1>Registration Page</h1></center>
         <div className="form-body">
             <div className="username">
                 <label className="form__label" for="firstName">First Name </label>
