@@ -24,12 +24,12 @@ const Signup = () =>{
                 <h1 style="color: white;">Registration</h1>
                     <br></br><br></br><br></br>
                 <form onSubmit={onSubmit}>
-                    <label htmlFor="email" >Email</label>
+                    <label htmlFor="email">Email</label>
                     <input
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}></input>
 <br></br><br></br><br></br>
-                    <label htmlFor="password" >Password</label>
+                    <label htmlFor="password">Password</label>
                     <input
                         value={password}
                         onChange={(event) => setpassword(event.target.value)}></input>
