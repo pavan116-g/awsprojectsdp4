@@ -28,12 +28,12 @@ const Signup = () =>{
                     <input
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}></input>
-
+<br></br><br></br><br></br>
                     <label htmlFor="password">Password</label>
                     <input
                         value={password}
                         onChange={(event) => setpassword(event.target.value)}></input>
-
+<br></br><br></br><br></br>
                     <button type="submit">Submit</button> 
                 </form>
                 </center>
